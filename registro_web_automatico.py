@@ -6,13 +6,13 @@ from selenium.webdriver.common.by import By
 import time 
 import sys  
 
-##################################################_____________
+##################################################______________________________
 nombre = input("Ingresa tu Nombre: ") 
 apellido = input("Ingresa tu Apellido: ")
 email = input("Ingresa tu Email: ")
 rut = input("Ingresa tu Rut: ")
 numero_telefono = input("Ingresa tu numero de Telefono: ")
-
+####################################################_____________________________
 
 try:  
     eleccion = int(input("Selecciona cargo Directivo (1) o Asistente (2): "))  # Asegúrate de que se ingresa un número entero  
@@ -25,7 +25,7 @@ if eleccion != 1 and eleccion != 2:
     print("el numero seleccionado no es 1 ni 2. El programa se cerrará.")  
     sys.exit()  # Cierra el programa 
 
-#####################################################_________
+#####################################################_________________________________________________
 
 
 ########parte navegador
